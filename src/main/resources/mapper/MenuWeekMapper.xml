@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.canteen.demo.mapper.MenuWeekMapper" >
+  <resultMap id="BaseResultMap" type="com.canteen.demo.pojo.MenuWeek" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="dsno" property="dsno" jdbcType="CHAR" />
+    <result column="dsname" property="dsname" jdbcType="VARCHAR" />
+    <result column="dstype" property="dstype" jdbcType="TINYINT" />
+    <result column="dsintroduce" property="dsintroduce" jdbcType="VARCHAR" />
+    <result column="dsprice" property="dsprice" jdbcType="DECIMAL" />
+    <result column="dsremainnum" property="dsremainnum" jdbcType="INTEGER" />
+    <result column="week1" property="week1" jdbcType="TINYINT" />
+    <result column="week2" property="week2" jdbcType="TINYINT" />
+    <result column="week3" property="week3" jdbcType="TINYINT" />
+    <result column="week4" property="week4" jdbcType="TINYINT" />
+    <result column="week5" property="week5" jdbcType="TINYINT" />
+    <result column="week6" property="week6" jdbcType="TINYINT" />
+    <result column="week7" property="week7" jdbcType="TINYINT" />
+    <result column="createdby" property="createdby" jdbcType="VARCHAR" />
+    <result column="createdtime" property="createdtime" jdbcType="TIMESTAMP" />
+    <result column="updatedby" property="updatedby" jdbcType="VARCHAR" />
+    <result column="updatedtime" property="updatedtime" jdbcType="TIMESTAMP" />
+    <result column="updatedvers" property="updatedvers" jdbcType="SMALLINT" />
+  </resultMap>
+</mapper>
