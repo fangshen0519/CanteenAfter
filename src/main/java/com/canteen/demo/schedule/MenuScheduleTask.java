@@ -29,7 +29,7 @@ public class MenuScheduleTask implements SchedulingConfigurer {
 
     @Override
     public void configureTasks(ScheduledTaskRegistrar scheduledTaskRegistrar) {
-        Integer day = 1;
+        Integer day = 2;
 
         scheduledTaskRegistrar.addTriggerTask(
                 //添加任务内容(Runnable)
