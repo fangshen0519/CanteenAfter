@@ -44,7 +44,7 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.assets.demo.pojo
+  type-aliases-package: com.canteen.demo.pojo
 properties:
   amapKey: f0b5aa2009f00e8156fda1d0d0113377
 

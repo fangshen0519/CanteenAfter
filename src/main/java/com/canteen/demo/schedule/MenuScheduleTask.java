@@ -31,6 +31,11 @@ public class MenuScheduleTask implements SchedulingConfigurer {
     public void configureTasks(ScheduledTaskRegistrar scheduledTaskRegistrar) {
         Integer day = 3;
 
+        //使定时任务无效
+        if (1==1) {
+            return;
+        }
+
         scheduledTaskRegistrar.addTriggerTask(
                 //添加任务内容(Runnable)
 //                () ->  {menuService.searchTodayMenu(day);
