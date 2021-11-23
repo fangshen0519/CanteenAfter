@@ -25,4 +25,28 @@
     <result column="updatedtime" property="updatedtime" jdbcType="TIMESTAMP" />
     <result column="updatedvers" property="updatedvers" jdbcType="SMALLINT" />
   </resultMap>
+
+  <select id="selectAllmenu" resultMap="BaseResultMap">
+    select
+        menu_week.id,
+        menu_week.dsno,
+        menu_week.dsname,
+        menu_week.dstype,
+        menu_week.dsintroduce,
+        menu_week.dsprice,
+        menu_week.dsremainnum,
+        menu_week.week1,
+        menu_week.week2,
+        menu_week.week3,
+        menu_week.week4,
+        menu_week.week5,
+        menu_week.week6,
+        menu_week.week7,
+        menu_week.createdby,
+        menu_week.createdtime,
+        menu_week.updatedby,
+        menu_week.updatedtime
+    from
+        menu_week
+    </select>
 </mapper>

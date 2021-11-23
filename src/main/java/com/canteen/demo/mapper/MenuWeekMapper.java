@@ -7,4 +7,6 @@ import java.util.List;
 
 public interface MenuWeekMapper extends MyMapper<MenuWeek> {
     List<MenuWeek> selectTodayMenu(Integer day);
+
+    List<MenuWeek> selectAllmenu();
 }
